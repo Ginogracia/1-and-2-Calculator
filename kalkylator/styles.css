@@ -1,0 +1,116 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #000000, #434343); 
+    background: linear-gradient(to right, #000000, #434343); 
+}
+
+#calculator {
+    border: 10px black solid;
+    height: 600px;
+    width: 500px;
+    margin-left: 35%;
+    margin-top: 80px;
+    background-color: #d0d0d0;
+    padding: 0 4px 0 0;
+    gap: 5px;
+    flex-direction: column-reverse;
+}
+
+#keys {
+    height: 440px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    flex-wrap: wrap;
+    background-color: #d0d0d0;
+    gap: 5px;
+}
+
+
+.button {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    background-color: black;
+    color: white;
+    user-select: none;
+    border-radius: 35%;
+    transition: 0.3s;
+
+}
+
+.button:hover {
+    background-color: #63be51;
+    color: white;
+}
+
+.button-clear {
+    width: 70px;
+    height: 50px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: monospace;
+    background-color: white;
+    color: black;
+    user-select: none;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 10px;
+    border-radius: 0 0 15px 15px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    transition: 0.2s;
+}
+
+.button-clear:hover {
+    height: 60px;
+    background-color: #f3da30;
+
+}
+
+h3 {
+    margin: 12.5% 0 0 0;
+    cursor: default;
+}
+
+h2 {
+    cursor: default;
+    margin: 25% 0 0 0;
+}
+
+.button-equal-sign {
+    background-color: #71d95d;
+    color: black;
+    transition: 0.2s;
+}
+
+.button-equal-sign:hover {
+    color: white;
+    background-color: #63be51;
+}
+
+#display {
+    width: 500px;
+    height: 150px;
+    background-color: #71d95d;
+    border: 0;
+    border-bottom: 3px black solid;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+#display:focus {
+    outline: none;
+  }
+
+
