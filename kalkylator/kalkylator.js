@@ -1,3 +1,6 @@
+// MIN KOD INNAN JAG BEHÖVDE ÄNDRA EFTERSOM JAG INTE VISSTE ATT JAG INTE FICK ANVÄNDA MIG UTAV EVAL FUNKTIONEN SAMT HADE INTE TIDEN FÖR ATT GÖRA OM HELA KALKYLATORN EFTERSOM JAG TOG STUDENTEN HOPPAS DET RÄCKER MED ATT JAG GJORDE ENBART DEN FÖRSTA DELEN. TACK.
+
+
 // const display = document.getElementById('display');
 // const buttonZero = document.querySelector('.button-zero');
 // const buttonOne = document.querySelector('.button-one');
